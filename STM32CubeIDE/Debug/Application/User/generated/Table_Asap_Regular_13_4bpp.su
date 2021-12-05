@@ -1,0 +1,2 @@
+Table_Asap_Regular_13_4bpp.cpp:34:180:void __tcf_0()	0	static
+Table_Asap_Regular_13_4bpp.cpp:32:26:touchgfx::GeneratedFont& getFont_Asap_Regular_13_4bpp()	64	static

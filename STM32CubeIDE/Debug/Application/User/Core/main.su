@@ -1,0 +1,7 @@
+main.c:764:6:StartDefaultTask	8	static
+main.c:141:6:HAL_UART_RxCpltCallback	8	static
+main.c:148:5:__io_putchar	16	static
+main.c:274:6:SystemClock_Config	88	static
+main.c:158:5:main	120	static,ignoring_inline_asm
+main.c:818:6:HAL_TIM_PeriodElapsedCallback	0	static
+main.c:835:6:Error_Handler	0	static

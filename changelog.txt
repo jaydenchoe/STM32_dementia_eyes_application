@@ -1,0 +1,6 @@
+3.0.1
+- Upgraded to TouchGFX 4.18.0
+- Upgrated the Makefile to use texts.xml instead of texts.xlsx
+
+3.0.0
+- First public release

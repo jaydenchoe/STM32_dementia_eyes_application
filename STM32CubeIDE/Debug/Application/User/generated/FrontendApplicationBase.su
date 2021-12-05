@@ -1,0 +1,47 @@
+Application.hpp:74:18:virtual void touchgfx::Application::appSwitchScreen(uint8_t)	0	static
+Application.hpp:86:18:virtual void touchgfx::Application::requestRedraw(touchgfx::Rect&)	0	static
+Transition.hpp:71:18:virtual void touchgfx::Transition::tearDown()	0	static
+Transition.hpp:79:18:virtual void touchgfx::Transition::init()	0	static
+Transition.hpp:99:18:virtual void touchgfx::Transition::setScreenContainer(touchgfx::Container&)	0	static
+MVPApplication.hpp:43:7:touchgfx::MVPApplication::~MVPApplication()	0	static
+FrontendApplicationBase.hpp:16:13:FrontendApplicationBase::~FrontendApplicationBase()	0	static
+NoTransition.hpp:35:18:virtual void touchgfx::NoTransition::handleTickEvent()	0	static
+Callback.hpp:357:8:touchgfx::Callback<touchgfx::SlideTransition<touchgfx::EAST>, touchgfx::Drawable&, void, void>::~Callback()	0	static
+SlideTransition.hpp:200:18:void touchgfx::SlideTransition<templateDirection>::tickMoveDrawable(touchgfx::Drawable&) [with touchgfx::Direction templateDirection = touchgfx::EAST]	4	static
+SlideTransition.hpp:39:7:touchgfx::SlideTransition<touchgfx::EAST>::~SlideTransition()	0	static
+NoTransition.hpp:31:7:touchgfx::NoTransition::~NoTransition()	0	static
+Callback.hpp:424:8:touchgfx::Callback<FrontendApplicationBase>::~Callback()	0	static
+SlideTransition.hpp:173:18:void touchgfx::SlideTransition<templateDirection>::initMoveDrawable(touchgfx::Drawable&) [with touchgfx::Direction templateDirection = touchgfx::EAST]	0	static
+Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = touchgfx::SlideTransition<touchgfx::EAST>; T1 = touchgfx::Drawable&]	8	static
+Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = touchgfx::SlideTransition<touchgfx::EAST>; T1 = touchgfx::Drawable&]	0	static
+Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = FrontendApplicationBase]	4	static
+Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = FrontendApplicationBase]	0	static
+NoTransition.hpp:31:7:virtual touchgfx::NoTransition::~NoTransition()	8	static
+Callback.hpp:424:8:virtual touchgfx::Callback<FrontendApplicationBase>::~Callback()	8	static
+MVPApplication.hpp:43:7:virtual touchgfx::MVPApplication::~MVPApplication()	8	static
+FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	8	static
+SlideTransition.hpp:39:7:virtual touchgfx::SlideTransition<touchgfx::EAST>::~SlideTransition()	8	static
+Callback.hpp:357:8:virtual touchgfx::Callback<touchgfx::SlideTransition<touchgfx::EAST>, touchgfx::Drawable&, void, void>::~Callback()	8	static
+Transition.hpp:88:18:virtual void touchgfx::Transition::invalidate()	8	static
+SlideTransition.hpp:146:18:void touchgfx::SlideTransition<templateDirection>::tearDown() [with touchgfx::Direction templateDirection = touchgfx::EAST]	0	static
+SlideTransition.hpp:89:18:void touchgfx::SlideTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::EAST]	8	static
+MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	8	static
+SlideTransition.hpp:154:18:void touchgfx::SlideTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::EAST]	24	static
+FrontendApplicationBase.cpp:25:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	24	static
+FrontendApplicationBase.cpp:42:6:void FrontendApplicationBase::gotoMainScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:55:6:void FrontendApplicationBase::gotoScreen1ScreenSlideTransitionEast()	0	static
+FrontendApplicationBase.cpp:68:6:void FrontendApplicationBase::gotoScreen2ScreenSlideTransitionEast()	0	static
+FrontendApplicationBase.cpp:81:6:void FrontendApplicationBase::gotoScreen3ScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:94:6:void FrontendApplicationBase::gotoScreen4ScreenNoTransition()	0	static
+AbstractPartition.hpp:135:8:T& touchgfx::AbstractPartition::at(uint16_t) [with T = touchgfx::NoTransition]	0	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = MainView; PresenterType = MainPresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:48:6:void FrontendApplicationBase::gotoMainScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = Screen3View; PresenterType = Screen3Presenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:87:6:void FrontendApplicationBase::gotoScreen3ScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = Screen4View; PresenterType = Screen4Presenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:100:6:void FrontendApplicationBase::gotoScreen4ScreenNoTransitionImpl()	16	static
+SlideTransition.hpp:47:5:touchgfx::SlideTransition<templateDirection>::SlideTransition(uint8_t) [with touchgfx::Direction templateDirection = touchgfx::EAST]	24	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = Screen1View; PresenterType = Screen1Presenter; TransType = touchgfx::SlideTransition<touchgfx::EAST>; ModelType = Model]	32	static
+FrontendApplicationBase.cpp:61:6:void FrontendApplicationBase::gotoScreen1ScreenSlideTransitionEastImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = Screen2View; PresenterType = Screen2Presenter; TransType = touchgfx::SlideTransition<touchgfx::EAST>; ModelType = Model]	32	static
+FrontendApplicationBase.cpp:74:6:void FrontendApplicationBase::gotoScreen2ScreenSlideTransitionEastImpl()	16	static

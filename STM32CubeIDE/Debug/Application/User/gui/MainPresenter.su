@@ -1,0 +1,7 @@
+MainPresenter.hpp:28:13:MainPresenter::~MainPresenter()	0	static
+MainPresenter.cpp:10:6:virtual void MainPresenter::activate()	0	static
+MainPresenter.hpp:28:13:virtual MainPresenter::~MainPresenter()	8	static
+MainPresenter.cpp:24:6:virtual void MainPresenter::buttonAlarmOn()	0	static
+MainPresenter.hpp:28:13:virtual void* MainPresenter::_ZThn4_N13MainPresenterD1Ev()	0	static
+MainPresenter.hpp:32:10:virtual void MainPresenter::_ZThn4_N13MainPresenter14buttonAlarmOffEv()	0	static
+MainPresenter.cpp:5:1:MainPresenter::MainPresenter(MainView&)	8	static
